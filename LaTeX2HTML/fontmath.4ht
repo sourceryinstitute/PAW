@@ -1,0 +1,82 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% fontmath.4ht                         2002-02-22-19:57 %
+% Copyright (C) 1997--2002      Eitan M. Gurari         %
+%                                                       %
+% This program can redistributed and/or modified under  %
+% the terms of the LaTeX Project Public License         %
+% Distributed from CTAN archives in directory           %
+% macros/latex/base/lppl.txt; either version 1 of the   %
+% License, or (at your option) any later version.       %
+%                                                       %
+% However, you are allowed to modify this program       %
+% without changing its name, if you modify its          %
+% signature. Changes to the signature can be introduced %
+% with a directive of the form                          %
+%            \message{signature}                        %
+%                                                       %
+%                             gurari@cis.ohio-state.edu %
+%                 http://www.cis.ohio-state.edu/~gurari %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\immediate\write-1{version 2002-02-22-19:57}
+
+
+\def\:same#1{#1}
+\def\no:fonts{\more:no  \let\protect\@unexpandable@protect }
+\def\more:no{%
+   \let\footnote\:gobble \let\ \space
+ }
+\def\relbar{\mathrel-}
+
+\long\def\:temp#1{{\a:mathbf \csname o:mathbf :\endcsname{#1}\b:mathbf}}
+\expandafter\HLet\csname mathbf \endcsname\:temp
+\NewConfigure{mathbf}{2}
+\long\def\:temp#1{{\a:mathrm \csname o:mathrm :\endcsname{#1}\b:mathrm}}
+\expandafter\HLet\csname mathrm \endcsname\:temp
+\NewConfigure{mathrm}{2}
+\long\def\:temp#1{{\a:mathsf \csname o:mathsf :\endcsname{#1}\b:mathsf}}
+\expandafter\HLet\csname mathsf \endcsname\:temp
+\NewConfigure{mathsf}{2}
+\long\def\:temp#1{{\a:mathit \csname o:mathit :\endcsname{#1}\b:mathit}}
+\expandafter\HLet\csname mathit \endcsname\:temp
+\NewConfigure{mathit}{2}
+\long\def\:temp#1{{\a:mathtt \csname o:mathtt :\endcsname{#1}\b:mathtt}}
+\expandafter\HLet\csname mathtt \endcsname\:temp
+\NewConfigure{mathtt}{2}
+\ProtectedMathSymbol\mathop{longleftarrow}
+\ProtectedMathSymbol\mathop{longrightarrow}
+
+
+
+\def\:temp#1{\a:overbrace \mathop{\hbox{\b:overbrace
+   $\o:overbrace:{#1}$\c:overbrace}}\limits}
+\HLet\overbrace\:temp
+\NewConfigure{overbrace}{3}
+\def\:temp#1{\a:underbrace \mathop{\hbox{$\b:underbrace
+   \o:underbrace:{#1}\c:underbrace$}}\limits}
+\HLet\underbrace\:temp
+\NewConfigure{underbrace}{3}
+
+\MathSymbol\mathop{Longrightarrow}
+\MathSymbol\mathop{angle}
+\MathSymbol\mathop{cong}
+\MathSymbol\mathop{hookleftarrow}
+\MathSymbol\mathop{hookrightarrow}
+\MathSymbol\mathop{leftrightharpoons}
+\MathSymbol\mathop{longleftrightarrow}
+\MathSymbol\mathop{Longleftrightarrow}
+\MathSymbol\mathop{longmapsto}
+\MathSymbol\mathop{rightleftharpoons}
+\MathSymbol\mathop{vdots}
+\MathSymbol\mathrel{bowtie}
+\MathSymbol\mathrel{cdots}
+\MathSymbol\mathrel{ddots}
+\MathSymbol\mathrel{doteq}
+\MathSymbol\mathrel{mapsto}
+\MathSymbol\mathrel{models}
+\MathSymbol\mathrel{neq} \let\ne\neq   \def\c:ne:{\Configure{neq}}
+\MathSymbol\mathrel{notin}
+
+
+\Hinput{fontmath}
+\endinput
+

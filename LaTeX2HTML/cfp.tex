@@ -1,0 +1,189 @@
+\documentclass[12pt]{article}
+
+\usepackage{graphicx}  
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{fancyvrb,relsize}
+\usepackage{relsize}
+\usepackage{verbatim}
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+\usepackage{fancyvrb,relsize}
+\usepackage{subfigure}
+\usepackage{color}
+% \usepackage{lipsum}
+\usepackage[showframe=false]{geometry}
+\geometry{verbose,tmargin=90pt,bmargin=90pt,lmargin=90pt,
+rmargin=90pt}
+
+\title{Call for Papers \\
+PGAS Applications Workshop (PAW) \\
+Held in conjunction with SC 16, Salt Lake City, UT} 
+
+\date{}
+
+\begin{document}
+
+
+\maketitle
+
+% Call for Papers 
+% PGAS Applications Workshop (PAW)
+% Held in conjunction with SC 16, Salt Lake City, UT
+
+\section{Summary}
+
+The race towards Exascale computing is on, and a lot of stress is put
+on researchers to break the boundaries of productivity and efficiency
+imposed by traditional programming models. 
+Partitioned Global Address Space (PGAS) languages are  an
+effective alternative, and the most promising path towards 
+sustainable programming environments for exascale machines. 
+Languages such as UPC, Fortran, Chapel, and X10 are now more widely
+available than ever, thanks to increased support from vendors and
+open-source communities. PGAS models also take the form of meta-languages 
+and libraries, such as Unified Parallel C++ (UPC++), Co-Array C++, 
+OpenSHMEM, MPI-3 and Global Arrays.
+These have the benefit of being integrated with existing languages, 
+simplifying the learning curve for existing programmers.
+
+The increasing availability of PGAS compilers and support software
+opens up more opportunities than ever for researchers and developers
+to test new strategies and port applications to more demanding
+requirements. 
+
+\section{Scope and Aims}
+
+The scope of the PAW workshop is to provide a forum for exhibiting case studies of PGAS 
+programming models in the context of real-world applications as a means of better 
+understanding practical applications of PGAS technologies.  We encourage the submission 
+of papers and talks detailing practical PGAS applications, including characterizations of 
+scalability and performance, of expressiveness and programmability, as well as any downsides 
+or areas for improvement in existing PGAS models. In addition to informing other application 
+programmers about the potential that is available through PGAS programming, the workshop is 
+designed to communicate these experiences to compiler vendors, library developers, and system 
+architects in order to achieve broader support for PGAS programming across the community.
+
+% The PAW workshop aims at bringing together members of the PGAS
+% community;  we especially invite application specialists to
+% share their experiences, and to exchange views with language and
+% support researchers.
+
+Topics include, but are not limited to:
+\begin{itemize}
+\item Novel application development using the PGAS model
+\item Real-world examples demonstrating performance, compiler
+  optimization, error checking, and reduced software complexity.
+\item Performance evaluation of applications running under PGAS
+\item Algorithmic models enabled by PGAS model
+\item Compiler and runtime environments
+\item Libraries using/supporting PGAS and applications
+\item Benefits of hardware abstraction and data 
+  locality on algorithm implementation.
+\end{itemize}
+
+\section{Submissions}
+Submissions are solicited in two categories:
+\begin{itemize}
+  \item {\bf Full-length papers presenting novel research results:}
+  \begin{itemize}
+   \item[] Full-length papers will be published in the workshop proceedings in
+cooperation with SIGHPC. Submitted papers must be original work that has not 
+appeared in and is not under consideration for another conference or a journal. 
+Papers shall not exceed eight (8) pages including text,
+appendices, and figures. References are not included.
+  \end{itemize}
+
+  \item {\bf Extended abstracts summarizing published/preliminary results:} 
+  \begin{itemize}
+     \item[] Extended abstracts will be evaluated separately and are not intended 
+     to prevent the work from being submitted to other forums for publication.  
+     Extended abstracts shall not exceed four (4) pages. 
+  \end{itemize}
+\end{itemize}
+
+Submissions shall be submitted through EasyChair; they must conform to ACM
+Guidelines. Accepted full-length papers will be given longer presentation 
+slots at the workshop than the abstract-only option. 
+
+
+% \begin{itemize}
+%         \item Full-length papers presenting novel research results.
+% %  improving the state of the
+% %   art or discussing the issues seen on existing extreme-scale systems,
+% %   including  analysis and evaluation
+%   \item Extended abstracts summarizing preliminary results or those
+%           published previously.
+% \end{itemize}
+% Full-length papers will be published in the workshop proceedings in
+% cooperation with SIGHPC and should constitute novel results from an
+% academic publishing perspective.  Extended abstracts will be evaluated
+% separately and are not intended to prevent the work from being
+% submitted to other forums for publication.  Accepted papers will be
+% given longer presentation slots at the workshop than the abstract-only
+% option.
+
+% Submissions shall be submitted through EasyChair; they must conform to ACM
+% Guidelines.
+% Regular papers shall not exceed eight (8) pages including all text,
+% appendices, and figures.  Extended abstract papers shall not exceed
+% four (4) pages. In the case of extended abstract, shorter submissions
+% are acceptable for previously published work.
+
+% BLC: I had been imagining 2 pages for extended abstracts, not that
+% I'm opposed to 4.  Maybe we could say ``but shorter submissions are
+% acceptable as well'' for the extended abstract case?  What I'm
+% thinking of is that if you've done some great, previously published,
+% work in PGAS and we want you to present it at PAW, we probably want
+% to give you a low bar to show up and talk about it?
+
+
+\subsubsection*{WORKSHOP CHAIR}
+Karla Morris - Sandia National Laboratory 
+
+\subsubsection*{ORGANIZING COMMITTEE}
+\begin{itemize}
+\item Katherine A. Yelick - Lawrence Berkeley National Laboratory 
+\item Yili Zheng - Lawrence Berkeley National Laboratory 
+\item Salvatore Filippone - Cranfield University 
+\item Bradford L. Chamberlain - Cray Inc.
+\item Bill Long - Cray Inc. 
+\end{itemize}
+
+\subsubsection*{PROGRAM COMMITTEE CHAIR}
+Bill Long - Cray Inc. 
+
+\subsubsection*{PROGRAM COMMITTEE}
+\begin{itemize}
+  \item Gheorghe Almasi - IBM
+  \item Bradford L. Chamberlain - Cray Inc.
+  % \item ??Barbara Chapman - Stony Brook University \& Brookhaven National Laboratory 
+  \item Daniel Chavarr\'{i}a - Pacific Northwest National Laboratory
+  \item Bert de Jong - Lawrence Berkeley National Laboratory
+  \item Salvatore Filippone - Cranfield University 
+  % \item ??Tarek El-Ghazawi - George Washington University 
+  \item David Grove - IBM
+  \item Jeff Hammond - Intel 
+  \item Oscar Hernandez - Oak Ridge National Laboratory
+  \item Amir Kamil - University of Michigan 
+  \item John Mellor-Crummey - Rice University
+  \item Karla Morris - Sandia National Laboratory
+  \item Nick Park - DoD
+  \item Damian W. I. Rouson - Sourcery Institute
+  \item Lauren Smith - DoD 
+  \item Katherine A. Yelick - Lawrence Berkeley National Laboratory 
+  \item Yili Zheng - Lawrence Berkeley National Laboratory 
+\end{itemize}  
+
+\subsubsection*{IMPORTANT DATES:}
+\begin{itemize}
+  \item Submission Deadline: July 31, 2016 
+  \item Author Notification: September 1, 2016
+  \item Camera Ready:        October 1, 2016
+  \item Workshop Date:       November 13--18, 2016
+\end{itemize}  
+
+\end{document}
+
+
+

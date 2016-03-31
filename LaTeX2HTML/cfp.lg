@@ -1,0 +1,97 @@
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+File: cfp.html
+File: cfp.tmp
+File: cfp.css
+File: cfp.tmp
+File: cfp.tmp
+File: cfp.tmp
+File: cfp.tmp
+File: cfp.tmp
+File: cfp.tmp
+File: cfp.tmp
+File: cfp.tmp
+File: cfp.tmp
+File: cfp.tmp
+File: cfp.tmp
+File: cfp.tmp
+--- needs --- cfp.idv[1] ==> cfp0x.gif ---
+--- empty picture --- cfp.idv[1] ---
+Css: p.noindent { text-indent: 0em }
+Css: p.nopar { text-indent: 0em; }
+Css: p.indent{ text-indent: 1.5em }
+Css: a img { border-top: 0; border-left: 0; border-right: 0; }
+Font_Css("4"): .small-caps{font-variant: small-caps; }
+Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
+Font_Css("12"): .htf-calligraphy {font-family:cursive}
+Font_Css("14"): .htf-italic {font-style: italic;}
+Css: center { margin-top:1em; margin-bottom:1em; }
+Css: td center { margin-top:0em; margin-bottom:0em; }
+Css: .Canvas { position:relative; }
+Css: div.displaymath{text-align:center;}
+Css: .obeylines-h,.obeylines-v {white-space: nowrap; }
+Css: .underline{ text-decoration:underline; }
+Css: .overline{ text-decoration:overline; }
+Css: div.verbatim {font-family: monospace; white-space: nowrap; }
+Css: div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em; margin-top:0.5em; margin-bottom:0.5em;}
+Css: div.center div {text-align: left;}
+Css: div.flushright, div.flushright div.flushright {text-align: right;}
+Css: div.flushright div {text-align: left;}
+Css: div.flushleft {text-align: left;}
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em;}
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: .hline hr, .cline hr{ height : 1px; }
+Css: li p.indent { text-indent: 0em }
+Css: div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+Css: span.TEX {letter-spacing: -0.125em; }
+Css: span.TEX span.E{ position:relative;top:0.5ex;left:-0.0417em;}
+Css: a span.TEX span.E {text-decoration: none; }
+Css: span.LATEX span.A{ position:relative; top:-0.5ex; left:-0.4em; font-size:85%;}
+Css: span.LATEX span.TEX{ position:relative; left: -0.4em; }
+Css: .marginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+Css: span.footnotetext{ font-size:80%; font-style:italic; } 
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: .underline{ text-decoration:underline; }
+Css: .overline{ text-decoration:overline; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+--- needs --- cfp.idv[3] ==> cfp1x.gif ---
+--- empty picture --- cfp.idv[3] ---
+--- needs --- cfp.idv[4] ==> cfp2x.gif ---
+--- empty picture --- cfp.idv[4] ---
+--- needs --- cfp.idv[6] ==> cfp3x.gif ---
+--- empty picture --- cfp.idv[6] ---
+--- needs --- cfp.idv[7] ==> cfp4x.gif ---
+--- empty picture --- cfp.idv[7] ---
+--- needs --- cfp.idv[9] ==> cfp5x.gif ---
+--- empty picture --- cfp.idv[9] ---
+--- needs --- cfp.idv[10] ==> cfp6x.gif ---
+--- empty picture --- cfp.idv[10] ---
+--- needs --- cfp.idv[12] ==> cfp7x.gif ---
+--- empty picture --- cfp.idv[12] ---
+--- needs --- cfp.idv[13] ==> cfp8x.gif ---
+--- empty picture --- cfp.idv[13] ---
+--- needs --- cfp.idv[15] ==> cfp9x.gif ---
+--- empty picture --- cfp.idv[15] ---
+--- needs --- cfp.idv[16] ==> cfp10x.gif ---
+--- empty picture --- cfp.idv[16] ---
+--- needs --- cfp.idv[18] ==> cfp11x.gif ---
+--- empty picture --- cfp.idv[18] ---
+--- characters ---
+Font("cmr","12","12","100")
+Font("cmr","17","17","120")
+Font("cmr","12","12","120")
+Font("cmbx","12","12","144")
+Font("cmbx","12","12","100")
