@@ -1,0 +1,38 @@
+\documentclass{article}
+
+\title{How does PGAS “collaborate” with MPI+X?}
+\author{Mitsuhisa Sato\thanks{Team Leader, Programming Environment Research Team
+Deputy Project Leader and Team Leader, Architecture Development Team, 
+Flagship 2020 Project
+Advanced Institute for Computational Science, RIKEN}}
+\date{November 13, 2017}
+
+\begin{document}
+
+\maketitle
+
+% Here is the abstract.
+\begin{abstract}
+	While MPI is commonly used as a programming model between nodes for
+	large-scale distributed memory systems, new programming models such as
+	PGAS are emerging for many core and new communication models. PGAS is
+	expected to be one of the programming models for exascale computing due to
+	light-weight one-sided communication and low overhead synchronization
+	semantics. While it is reported that PGAS can take advantage of its
+	programming model in some applications, in reality, PGAS programming
+	systems have several problems in performance and run-time design as a
+	general-purpose communication layer. And, only one-side communication by
+	PGAS is not sufficient to implement whole parallel applications so that
+	it needs to cooperate with high-level global operations such as MPI
+	collective communications. We are developing a PGAS programming language
+	XcalableMP including coarray extension. In this talk, I will discuss the
+	present status of PGAS and its future direction with respect to current
+	dominant programming model “MPI+X”, and our experience of PGAS
+	application development will be also addressed.
+
+\end{abstract}
+
+\end{document}
+
+
+
