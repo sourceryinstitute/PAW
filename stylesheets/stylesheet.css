@@ -58,22 +58,19 @@ a {
   text-align: center;
 
 /* 50 Shades */
-  /*background: #bdc3c7;   fallback for old browsers */
-  /*background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  /*background: linear-gradient(to right, #2c3e50, #bdc3c7); } W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*background: #bdc3c7;   fallback for old browsers */
+/*  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+ /* background: linear-gradient(to right, #2c3e50, #bdc3c7); } W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-/* Between the clouds */
-/*  background: #ffd89b;  /* fallback for old browsers */
-/*  background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
-/*  background: linear-gradient(to right, #19547b, #ffd89b);} /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*Juicy Orange*/
+background: #FF8008;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  background: #283c86;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #45a247, #283c86);} /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-/* background: #283c86;  /* fallback for old browsers */
-/* background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*Grade Grey*/
+/*  background: #bdc3c7;  /* fallback for old browsers */
+/*  background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+/*  background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   /*background-color: #159957;*/
   /*background-image: linear-gradient(120deg, #155799, #159957); }*/
@@ -104,7 +101,8 @@ a {
 
 @media screen and (max-width: 42em) {
   .project-name {
-    font-size: 1.75rem; } }
+    font-size: 1.75rem; 
+    } }
 
 .project-tagline {
   margin-bottom: 2rem;
