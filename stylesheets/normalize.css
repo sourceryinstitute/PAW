@@ -135,6 +135,15 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  /*Karla: Added color to Headers */
+  color: #4b1248;
+}
+
+/*Karla: Added color to Headers */
+h2 {
+  font-size: 1.5em;
+  margin: 0.67em 0;  
+  color: #4b1248;
 }
 
 /**

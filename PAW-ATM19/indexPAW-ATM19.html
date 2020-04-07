@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Parallel Applications Workshop, Alternatives To MPI+X (PAW-ATM) by sourceryinstitute</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <img src="PAW-ATM19Logo.png" alt="PAW-ATMLogo" style="width:370px;height:320px;">
+      <h1 class="project-name" style="color:black">Parallel Applications Workshop, <br> Alternatives To MPI+X</h1>
+      <b>  Sunday, November 17th, 2019 </b>  <br> <b> 9:00 am - 5:30 pm</b> <br> <b> Room 507</b>
+      <h2 class="project-tagline" style="color:#2c3e50
+">Held in conjunction with <a href=https://sc19.supercomputing.org style="color:#2c3e50; text-decoration: none;">SC19</a>
+</h2>
+       <!-- <br> The International Conference for High Performance Computing, Networking, Storage and Analysis</h2> -->
+      <img src="SC19Logo.png" alt="SC19Logo" style="width:150px;height:70px;">
+      <h2 class="project-tagline" style="color:#2c3e50; text-decoration: none;">In cooperation with: </h2>
+      <!-- <img src="IEEE_CS_Logo.gif" alt="IEEE_CS_Logo" style="width:150px;height:65px;">  -->
+      <img src="tchpc_logo_cmyk.png" alt="TCHPC_Logo" style="width:130px;height:30px;">
+
+
+<!--
+      <a href="https://github.com/sourceryinstitute/PAW" class="btn">View on GitHub</a>
+      <a href="https://github.com/sourceryinstitute/PAW/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/sourceryinstitute/PAW/tarball/master" class="btn">Download .tar.gz</a>
+-->
+    </section>
+
+    <section class="main-content" style="margin-left:100px;margin-right:100px">
+      <p>Welcome to the PAW-ATM Workshop.</p>
+
+<ul>
+<li><a href="https://conferences.computer.org/sc19w/2019/#!/toc/15" target="_top">Proceedings</a></li>
+<li><a href="#Program">Program</a></li>
+<li><a href="#important-dates">Important dates</a></li>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#scope-and-aims">Scope and Aims</a></li>
+<li><a href="#topics">Topics</a></li>
+<li><a href="#Submissions">Submissions</a></li>
+<li>
+<a href="#organization">Organization</a>
+<ul>
+<li><a href="#workshop-chair">Workshop Chair</a></li>
+<li><a href="#workshop-chair">Organizing Committee</a></li>
+<li><a href="#program-committee-chair">Program Committee Chairs</a></li>
+<li><a href="#program-committee">Program Committee</a></li>
+<li><a href="#advisory-committee-chair">Advisory Committee</a></li>
+</ul>
+</li>
+
+<li><a href="#Contact">Contact</a></li>
+
+<li><a href="#Previous Workshops">Previous Workshops</a></li>
+<ul>
+  <li><a href="./PAW16/indexPAW16.html">PAW2016: PGAS Applications Workshop</a></li>
+  <li><a href="./PAW17/indexPAW17.html">PAW2017: PGAS Applications Workshop</a></li>
+  <li><a href="./PAW-ATM18/indexPAW-ATM18.html">PAW-ATM2018: Parallel Applications Workshop, Alternatives To MPI</a></li>
+</ul> 
+
+</ul>
+
+<h1>
+
+<h1>
+<a id="Program" class="anchor" href="#Program" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Program</h1>
+
+<ul>
+<li>9:00 - 9:10 Karla Morris, Rosa M. Badia, Bradford L. Chamberlain, Sean Treichler, 
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Bill Long, and Francesco Rizzi
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i>Introduction</i></li>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM-2019-Intro.pdf" download> (Presentation) </a> 
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<li>9:10 - 10:00 <b>Keynote Speaker:</b> Peter J. Braam - University of Oxford
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i>Computer Science Challenges to Imaging the Universe with the SKA Radio-Telescope</i></li>
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/BraamAbstract.pdf" download>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(Abstract,  </a> 
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_keynote.pdf" download> Presentation) </a> 
+<br>
+<br>
+<li> 10:00 - 10:30 Break </li>
+
+<br>
+<li>10:30 - 11:30 <b>Session 1: <i>Scientific Simulations </i> </b>  </li>
+<ul>
+<li>10:30 - 10:50 Hilario C. Torres, Manolis Papadakis, Lluis Jofre, Wonchan Lee,  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Alex Aiken and Gianluca Iaccarino
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i>Soleil-X: Turbulence, Particles, and Radiation in the Regent Programming Language</i></li> 
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_talk1.pdf" download>(Presentation </a> ,
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/extendedAbstracts/PAW-ATM2019_abstract1.pdf" download> Extended Abstract) </a>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<li>10:50 - 11:10 Ethan T. Coon, Wael Elwasif, Himanshu Pillai,  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Peter E. Thornton and Scott L. Painter
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i>Exploring the Use of Novel Programming Models in Land Surface Models</i></li> 
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_talk2.pdf" download>(Presentation) </a>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<li>11:10 - 11:30 Nikhil Padmanabhan, Elliot Ronaghan, Jovana L. Zagorac, and Richard Easther
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i>Simulating Ultralight Dark Matter with Chapel: An Experience Report</i></li> 
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_talk3.pdf" download>(Presentation </a> ,
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/extendedAbstracts/PAW-ATM2019_abstract2.pdf" download> Extended Abstract) </a>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</ul>
+
+<li>11:30 - 12:30 <b>Session 2: <i>Applying MPI+X Alternatives: from Shallow Water to Deep Learning </i> </b> </li>
+<ul>
+<li>11:30 - 11:50 Alexander Pöppl, Scott Baden, and Michael Bader
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i>A UPC++ Actor Library and Its Evaluation On a Shallow Water Proxy Application</i></li> 
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_talk4.pptx" download>(Presentation) </a>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<li>11:50 - 12:10 Yu Pei, George Bosilca, Ichitaro Yamazaki, Akihiro Ida, and Jack Dongarra
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i> Evaluation of Programming Models to Address Load Imbalance on Distributed Multi-Core CPUs: <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; A Case Study with Block Low-Rank Factorization</i></li> 
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_talk5.pdf" download>(Presentation) </a>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<li>12:10 - 12:30 Gerard Taylor, James Dinan, Md. Wasi-ur Rahman, and David Ozog
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i>Scalable Machine Learning with OpenSHMEM</i></li> 
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_talk6.pdf" download>(Presentation </a> ,
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/extendedAbstracts/PAW-ATM2019_abstract3.pdf" download> Extended Abstract) </a>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</ul>
+
+<li> 12:30 - 2:00 Lunch </li>
+
+<br>
+<li>2:00 - 3:00 <b>Session 3: <i>Communication Libraries and APIs </i> </b> </li>
+<ul>
+<li>2:00 - 2:20 David Ozog, MD Wasi-ur- Rahman, Gerard Taylor, and James Dinan
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i>Designing, Implementing, and Evaluating the Upcoming OpenSHMEM Teams API</i></li> 
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_talk7.pdf" download>(Presentation) </a>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<li>2:20 - 2:40 Wenbin Lu, Tony Curtis, and Barbara Chapman
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i>Enabling Low-Overhead Communication in Multi-threaded OpenSHMEM Applications using Contexts</i></li> 
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_talk8.pdf" download>(Presentation) </a>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<li>2:40 - 3:00 Paul H. Hargrove, and Dan Bonachea
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i>Efficient Active Message RMA in GASNet Using a Target-Side Reassembly Protocol</i></li> 
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_talk9.pdf" download>(Presentation </a>,
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/extendedAbstracts/PAW-ATM2019_abstract4.pdf" download> Extended Abstract) </a>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</ul>
+
+<li> 3:00 - 3:30 Break </li>
+
+<br>
+<li>3:30 - 4:10 <b>Session 4: <i> Integrating Python into HPC </i> </b> </li>
+<ul>
+<li>3:30 - 3:50 Elliott Slaughter, and Alex Aiken
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i>Pygion: Flexible, Scalable Task-Based Parallelism with Python</i></li> 
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_talk10.pptx" download>(Presentation) </a>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<li>3:50 - 4:10 Michael H. Merrill, William Reus, and Timothy Neumann
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<i>Arkouda: NumPy-like arrays at massive scale backed by Chapel</i></li> 
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_talk11.pdf" download>(Presentation </a>,
+<a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/extendedAbstracts/PAW-ATM2019_abstract5.pdf" download> Extended Abstract) </a>
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</ul>
+
+<li>4:10 - 5:30 <b>Panel Discussion: <i> Applications in Alternatives to MPI+X </i> </b> </li>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<b>Panel Chair:</b> Patrick McCormick — Los Alamos National Laboratory
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<b>Panelists:</b>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <ul>
+            <li style="margin-left: 100px;"> Alex Aiken  - Stanford University <a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_Panel_Akin.pdf" download>(Intro Slides) </a> </li> 
+            <li style="margin-left: 100px;"> Rosa M. Badia - Barcelona Supercomputing Center  <a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_Panel_Rosa.pdf" download>(Intro Slides) </a> </li>
+            <!-- <li style="margin-left: 100px;"> Peter J. Braam - University of Oxford </li>       -->
+            <li style="margin-left: 100px;"> Michael H. Merrill    - U.S. Department of Defense </li>
+            <li style="margin-left: 100px;"> Michael Ferguson - Cray, a Hewlett Packard Enterprise company <a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_Panel_Ferguson.pdf" download>(Intro Slides) </a> </li>    
+            <li style="margin-left: 100px;"> Damian W. I. Rouson - Sourcery Institute <a href="https://github.com/sourceryinstitute/PAW/raw/gh-pages/PAW-ATM19/presentations/PAW-ATM2019_Panel_Rouson.pdf" download>(Intro Slides) </a> </li>
+        </ul>
+</ul>
+
+
+</h1>
+
+<h1>
+
+<h1>
+<a id="important-dates" class="anchor" href="#important-dates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Important dates</h1>
+
+<ul>
+<li>Submission Deadline: <strike>July 31, 2019</strike> August 15, 2019</li>
+<li>Author Notification: <strike>September 1, 2019</strike> September 15, 2019 </li>
+<!-- <li>Submission Deadline: July 31, 2019</li> -->
+<!-- <li>Author Notification: September 1, 2019</li> -->
+<li>Camera Ready: October 1, 2019</li>
+<li>Workshop Date: November 17, 2019</li>
+</ul>
+
+<h1>
+<a id="summary" class="anchor" href="#summary" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Summary</h1>
+
+<p>Supercomputers are becoming increasingly complex due to the prevalence 
+of hierarchy and heterogeneity in emerging node and system architectures.  
+As a result of these trends, users of conventional programming models for 
+scalable high-performance applications increasingly find themselves writing 
+applications using a mix of distinct programming models—such as Fortran90, 
+C, C++, MPI, OpenMP, and CUDA—which are also often becoming more complex 
+and detail-oriented themselves. These trends negatively impact the costs 
+of developing, porting, and maintaining HPC applications.</p>
+
+<p>Meanwhile, new programming models and languages are being developed that 
+strive to improve upon the status quo. This is accomplished by unifying 
+the expression of parallelism and locality across the system, raising 
+the level of abstraction, making use of modern language design features, 
+and/or leveraging the respective strengths of programmers, compilers, 
+runtimes, and operating systems.  
+These alternatives may take the form of parallel programming languages 
+(e.g., Chapel, Fortran 2018, Julia, UPC), frameworks for large-scale data 
+processing and analytics (e.g., Spark, Tensorflow, Dask), or libraries and 
+embedded DSLs that extend existing languages (e.g., Legion, COMPSs, SHMEM,
+HPX, Charm++, UPC++, Coarray C++, Global Arrays).</p>
+
+<p>The PAW-ATM workshop is designed to explore the expression of applications 
+in scalable parallel programming models that serve as an alternative to the 
+status quo.  It is designed to bring together applications experts and 
+proponents of high-level programming models to present concrete and 
+practical examples of using such alternative models and to illustrate 
+the benefits of high-level approaches to scalable programming.</p>
+
+<h1>
+<a id="scope-and-aims" class="anchor" href="#scope-and-aims" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scope and Aims</h1>
+
+<p>The PAW-ATM workshop is designed as a forum for exhibiting studies 
+of parallel applications developed using high-level parallel programming models 
+serving as alternatives to MPI+X-based programming. We encourage the 
+submission of papers and talks that describe practical distributed-memory 
+applications written using alternatives to MPI+X, and include characterizations 
+of scalability and performance, expressiveness and programmability, as well as any 
+downsides or areas for improvement in such models. Our hope is to create a 
+forum in which architects, language designers, and users can present, learn 
+about, and discuss the state of the art in alternative scalable programming 
+models while also wrestling with how to increase their effectiveness and adoption.  
+Beyond well-established HPC scientific simulations, we also encourage submissions 
+exploring artificial intelligence, big data analytics, machine learning, 
+and other emerging application areas.</p>
+
+
+<h1>
+<a id="topics" class="anchor" href="#topics" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Topics</h1>
+
+<p>Topics include, but are not limited to:</p>
+
+<ul>
+<li>Novel application development using high-level parallel programming
+  languages and frameworks.</li>
+
+<li>Examples that demonstrate performance, compiler optimization, error
+  checking, and reduced software complexity.</li>
+
+<li>Applications from artificial intelligence, data analytics,   
+  bioinformatics, and other novel areas.</li>
+
+<li>Performance evaluation of applications developed using alternatives
+  to MPI+X and comparisons to standard programming models.</li>
+
+<li>Novel algorithms enabled by high-level parallel abstractions.
+</li>
+
+<li>Experience with the use of new compiler and runtime environments.
+</li>
+
+<li>Libraries using or supporting alternatives to MPI+X.
+</li>
+
+<li>Benefits of hardware abstraction and data locality on algorithm 
+  implementation.</li>
+  
+</ul>
+
+
+<h1>
+<a id="Submissions" class="anchor" href="#Submissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Submissions</h1>
+<p> Submissions are solicited in two categories: </p>
+<li> <b>Full-length papers presenting novel research results:</b>
+  <ul>
+    <br> Full-length papers will be published in the workshop proceedings 
+    in cooperation with IEEE TCHPC (pending acceptance). 
+   <!-- <br> Full-length papers will be published in the workshop proceedings.  -->
+    Submitted papers must describe original work 
+    that has not appeared in, nor is under consideration for, another 
+    conference or journal. Papers shall be eight (8) pages minimum 
+    and not exceed ten (10) including text, appendices, and figures. 
+    Appendix pages related to the reproducibility initiative 
+    dependencies, namely the Artifact Description (AD) and 
+    Artifact Evaluation (AE), are not included in the page count.
+  </ul>
+
+  <br>
+<li> <b>Extended abstracts summarizing preliminary/published results:</b> 
+  <ul>
+     <br> Extended abstracts will be evaluated separately and will
+    not be included in the published proceedings; they are intended
+    to propose timely communications of novel work that will be
+    formally submitted elsewhere at a later stage, and/or of already
+    published work that would be of interest to the PAW-ATM audience
+    in terms of topic and timeliness.  Extended abstracts shall not
+    exceed four (4) pages.
+  </ul>
+
+<p>When deciding between submissions with similar merit, ties will be broken by 
+giving weight to full-length paper submissions over extended abstracts.  
+In addition, submissions whose focus relates more directly to the key themes 
+of the workshop (application studies, computing at scale, high-level 
+alternatives to MPI+X) will be given priority over those that don’t.
+</p>
+
+Submissions shall be submitted through 
+<a href="https://submissions.supercomputing.org" target="_top">Linklings</a> using 10pt font in the 
+<a href="https://www.ieee.org/conferences/publishing/templates.html" target="_top">IEEE</a> format. 
+
+
+<p>PAW-ATM follows the <a href=https://sc19.supercomputing.org/submit/reproducibility-initiative/" target="_top"><b>reproducibility initiative</b></a> of SC19. For more information, please refer to the <a href="./PAW-ATM19/ReproducibilityInitiativesPAW-ATM19.html">FAQ</a>
+provided for additional information.</p>  <a href=https://github.com/SC-Tech-Program/SCreproducibility target="_top"><b> AD/AE</b><a> templates are avaliable.
+
+
+<h1>
+<a id="organization" class="anchor" href="#organization" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Organization</h1>
+
+<h2>
+<a id="workshop-chair" class="anchor" href="#workshop-chair" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workshop Chair</h2>
+<ul>
+  <li>Karla Morris - Sandia National Laboratories</li>
+</ul>
+<h2>
+<a id="organizing-committee" class="anchor" href="#organizing-committee" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Organizing Committee</h2>
+
+<ul>
+<li>Rosa M. Badia - Barcelona Supercomputing Center</li>
+<li>Bradford L. Chamberlain - Cray, a Hewlett Packard Enterprise company</li>
+<li>Sean Treichler - NVIDIA</li>
+</ul>
+
+<h2>
+<a id="program-committee-chair" class="anchor" href="#program-committee-chair" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Program Committee Chairs</h2>
+
+<ul>
+  <li>Bill Long - Cray, a Hewlett Packard Enterprise company</li>
+  <li>Francesco Rizzi - NexGen Analytics</li>
+</ul>
+
+<h2>
+<a id="program-committee" class="anchor" href="#program-committee" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Program Committee</h2>
+
+<ul>
+  <li>Olivier Aumage - Inria</li>
+  <li>Rosa M. Badia - Barcelona Supercomputing Center</li>
+  <li>Vicenç Beltran - Barcelona Supercomputing Center</li>
+  <li>John Biddiscombe - CSCS Swiss National Supercomputing Centre</li>
+  <li>Bradford L. Chamberlain - Cray, a Hewlett Packard Enterprise company</li>
+  <li>Salvatore Filippone - Cranfield University</li>
+  <li>Marta G. Gasulla - Barcelona Supercomputing Center</li>
+  <li>Magne Haveraaen - University of Bergen</li>
+  <li>Costin Iancu - Lawrence Berkeley National Laboratory</li>
+  <li>Laxmikant Kale - University of Illinois</li>
+  <li>Karla Morris - Sandia National Laboratories </li>
+  <li>Bill Long - Cray, a Hewlett Packard Enterprise company </li>
+  <li>Swaroop S. Pophale - Oak Ridge National Laboratory</li>
+  <li>Jason Riedy  - Georgia Institute of Technology</li>
+  <li>Francesco Rizzi - NexGen Analytics</li>
+  <li>Mitsuhisa Sato - RIKEN Advanced Institute for Computational Science</li>
+  <li>Elliott Slaughter - SLAC National Accelerator Laboratory</li>
+  <li>Sean Treichler - NVIDIA</li>
+</ul>
+
+<h2>
+<a id="advisory-committee" class="anchor" href="#advisory-committee" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Advisory Committee</h2>
+
+<ul>
+<li>Salvatore Filippone - Cranfield University</li>
+<li>Katherine A. Yelick - Lawrence Berkeley National Laboratory</li>
+<li>Damian W. I. Rouson - Sourcery Institute</li>
+</ul>
+
+<h1>
+<a id="Contact" class="anchor" href="#Contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h1>
+<p> In case of questions please email us at:
+<a href="mailto:paw-atm@cranfield.ac.uk" target="_top">paw-atm@cranfield.ac.uk </a>
+</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/sourceryinstitute/PAW">Parallel Applications Workshop, Alternatives To MPI+X (PAW-ATM)</a> is maintained by <a href="https://github.com/sourceryinstitute">sourceryinstitute</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
