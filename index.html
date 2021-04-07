@@ -69,56 +69,52 @@
 <a id="important-dates" class="anchor" href="#important-dates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Important dates</h1>
 
 <ul>
-<li>Submission Deadline: July 31, 2020</li>
-<li>Author Notification: September 23, 2020</li>
+<li>Submission Deadline: July 24, 2021</li>
+<li>Author Notification: September 12, 2021</li>
 <li>Camera Ready: October 1, 2020</li>
-<li>Workshop Date: November 12, 2020</li>
-<li>Workshop Rebroadcast Date: November 13, 2020</li>
+<!-- <li>Workshop Date: November 12, 2020</li> -->
+<!-- <li>Workshop Rebroadcast Date: November 13, 2020</li> -->
 </ul>
 
 <h1>
 <a id="summary" class="anchor" href="#summary" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Summary</h1>
 
-<p>Architectural hierarchy and heterogeneity makes programming
-supercomputers challenging.  In practice, HPC applications
-tend to be written using a mix of programming models—like C++,
-MPI, CUDA, and/or OpenMP—each of which is becoming more complex
-over time.  This negatively impacts the costs of developing,
-maintaining, and porting HPC applications.</p>
- 
-<p>Meanwhile, alternative HPC programming models strive to improve
-things by raising the level of abstraction; incorporating modern
-features; and/or leveraging the respective strengths of programmers,
-compilers, and runtimes.  These alternatives take the form of new
-languages (e.g., Chapel, Regent, XcalableMP), frameworks for
-large-scale data science (e.g., Arkouda, Dask, Spark), or extensions
-to existing languages (e.g., Charm++, COMPSs, Fortran, Legion, UPC++).</p>
- 
-<p>PAW-ATM is a forum for discussing HPC applications written in
-alternatives to MPI+X.  Its goal is to bring together application
-experts and proponents of high-level languages to present concrete
-example uses of such alternatives, describing their benefits and challenges.</p>
+<p>Architectural hierarchy and heterogeneity makes programming supercomputers
+  challenging.  In practice, HPC applications tend to be written using a mix of
+  programming models—like C++, MPI, CUDA, and/or OpenMP—each of which is becoming
+  more complex over time.  This negatively impacts the costs of developing,
+  maintaining, and porting HPC applications.</p> 
+   
+<p>Meanwhile, alternative HPC programming models strive to improve things by
+  raising the level of abstraction; incorporating modern features; and/or
+  leveraging the respective strengths of programmers, compilers, and runtimes.
+  These alternatives take the form of new languages (e.g., Chapel, Regent,
+  XcalableMP), frameworks for large-scale data science (e.g., Arkouda, Dask,
+  Spark), or extensions to existing languages (e.g., Charm++, COMPSs, Fortran,
+  Legion, UPC++). </p>
+  
+<p>PAW-ATM is a forum for discussing HPC applications written in alternatives to
+  MPI+X.  Its goal is to bring together application experts and proponents of
+  high-level languages to present concrete example uses of such alternatives,
+  describing their benefits and challenges. </p>
  
 
 <h1>
 <a id="scope-and-aims" class="anchor" href="#scope-and-aims" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scope and Aims</h1>
 
-<p>The PAW-ATM workshop aims to serve as a forum for
-exhibiting parallel applications developed using high-level
-parallel programming models that serve as alternatives to
-MPI+X-based programming.  We encourage the submission of papers
-and talks from the community detailing practical distributed-memory
-applications written using alternatives to MPI+X, including
-characterizations of scalability and performance, expressiveness
-and programmability, as well as any downsides or areas for
-improvement in such models.  In doing so, our hope is to create
-a setting in which application authors, language designers, and
-architects can present and discuss the state of the art in
-alternative scalable programming models while also wrestling
-with how to increase their effectiveness and adoption.
-Beyond well-established HPC scientific simulations, we also
-encourage submissions exploring artificial intelligence, big data
-analytics, machine learning, and other emerging application areas.</p>
+<p>The PAW-ATM workshop aims to serve as a forum for exhibiting parallel
+  applications developed using high-level parallel programming models that serve
+  as alternatives to MPI+X-based programming.  We encourage the submission of
+  papers and talks from the community detailing practical distributed-memory
+  applications written using alternatives to MPI+X, including characterizations of
+  scalability and performance, expressiveness and programmability, as well as any
+  downsides or areas for improvement in such models.  In doing so, our hope is to
+  create a setting in which application authors, language designers, and
+  architects can present and discuss the state of the art in alternative scalable
+  programming models while also wrestling with how to increase their effectiveness
+  and adoption. Beyond well-established HPC scientific simulations, we also
+  encourage submissions exploring artificial intelligence, big data analytics,
+  machine learning, and other emerging application areas.</p>
 
 
 <h1>
@@ -127,30 +123,26 @@ analytics, machine learning, and other emerging application areas.</p>
 <p>Topics of interest include, but are not limited to:</p>
 
 <ul>
-<li>Novel application development using high-level parallel programming
-  languages and frameworks.</li>
+<li>Novel application development using high-level parallel programming languages
+  and frameworks.  </li>
+   
+<li>Examples that demonstrate performance, compiler optimization, error checking,
+  and reduced software complexity.  </li>
+   
+<li>Applications from artificial intelligence, data analytics, bioinformatics, and
+  other novel areas.  </li>
+   
+<li>Performance evaluation of applications developed using alternatives to MPI+X
+  and comparisons to standard programming models.  </li>
 
-<li>Examples that demonstrate performance, compiler optimization, error
-  checking, and reduced software complexity.</li>
+<li>Novel algorithms enabled by high-level parallel abstractions.  </li>
 
-<li>Applications from artificial intelligence, data analytics,   
-  bioinformatics, and other novel areas.</li>
+<li>Experience with the use of new compilers and runtime environments.  </li>
 
-<li>Performance evaluation of applications developed using alternatives
-  to MPI+X and comparisons to standard programming models.</li>
+<li>Libraries using or supporting alternatives to MPI+X.  </li>
 
-<li>Novel algorithms enabled by high-level parallel abstractions.
-</li>
-
-<li>Experience with the use of new compiler and runtime environments.
-</li>
-
-<li>Libraries using or supporting alternatives to MPI+X.
-</li>
-
-<li>Benefits of hardware abstraction and data locality on algorithm 
-  implementation.</li>
-  
+<li>Benefits of hardware abstraction and data locality on algorithm
+  implementation.    </li>
 </ul>
 
 
@@ -159,38 +151,35 @@ analytics, machine learning, and other emerging application areas.</p>
 <p> Submissions are solicited in two categories: </p>
 <li> <b>Full-length papers presenting novel research results:</b>
   <ul>
-    <br> Full-length papers will be published in the workshop proceedings.
-    <!-- <br> Full-length papers will be published in the workshop proceedings [+]. -->
-    Submitted papers must describe original work that has not appeared
-    in, nor is under consideration for, another conference or
-    journal. Papers shall be eight (8) pages minimum and not exceed
-    ten (10) including text, appendices, and figures.  Appendix pages
-    related to the reproducibility initiative dependencies, namely the
-    Artifact Description (AD) and Artifact Evaluation (AE), are not
-    included in the page count.</br>
+    <!-- <br> Full-length papers will be published in the workshop proceedings. -->
+    <br> Full-length papers will be published in the workshop proceedings (+).
+    Submitted papers must describe original work that has not appeared in, nor is
+    under consideration for, another conference or journal. Papers shall be eight
+    (8) pages minimum and not exceed ten (10) including text, appendices, and
+    figures.  Appendix pages related to the reproducibility initiative
+    dependencies, namely the Artifact Description (AD) and Artifact Evaluation
+    (AE), are not included in the page count.</br>
  
-<!--     <br> + The specific publisher of the proceedings is TBA pending
+    <br> + The specific publisher of the proceedings is TBA pending
     acceptance of our proposal.</br>
- -->  </ul>
+  </ul>
 
   <br>
 <li> <b>Extended abstracts summarizing preliminary/published results:</b> 
   <ul>
-     <br> Extended abstracts will be evaluated separately and will not be
-    included in the published proceedings; they are intended to
-    propose timely communications of novel work that will be formally
-    submitted elsewhere at a later stage, and/or of already published
-    work that would be of interest to the PAW-ATM audience in terms of
-    topic and timeliness.  Extended abstracts shall not exceed four
-    (4) pages.</br>
+     <br> Extended abstracts will be evaluated separately and will not be included in
+     the published proceedings; they are intended to propose timely communications
+     of novel work that will be formally submitted elsewhere at a later stage,
+     and/or of already published work that would be of interest to the PAW-ATM
+     audience in terms of topic and timeliness.  Extended abstracts shall not
+     exceed four (4) pages</br>
   </ul>
 
-<p>When deciding between submissions with similar merit, submissions
-whose focus relates more directly to the key themes of the workshop
-(application studies, computing at scale, high-level alternatives
-to MPI+X) will be given priority over those that don't. In addition,
-full-length paper submissions will be given preference over extended
-abstracts.
+<p>When deciding between submissions with similar merit, submissions whose focus
+  relates more directly to the key themes of the workshop (application studies,
+  computing at scale, high-level alternatives to MPI+X) will be given priority
+  over those that don't. In addition, full-length paper submissions will be given
+  preference over extended abstracts. 
 </p>
 
 Submissions shall be submitted through 
@@ -198,7 +187,8 @@ Submissions shall be submitted through
 <a href="https://www.ieee.org/conferences/publishing/templates.html" target="_top">IEEE</a> format. 
 
 
-<p>PAW-ATM follows the <a href= https://sc20.supercomputing.org/submit/transparency-reproducibility-initiative/" target="_top"><b>reproducibility initiative</b></a> of SC21. <a https://submissions.supercomputing.org/?page=SampleForm&id=PaperArtifactDescriptionArticleEvaluationADAEAppendix&site=sc20 target="_top"><b> AD/AE</b></a> sample form is avaliable.</p>
+<p>PAW-ATM follows the <a href="https://sc21.supercomputing.org/submit/reproducibility-initiative/" target="_top">
+<b>reproducibility initiative</b></a> of SC21. <a https://submissions.supercomputing.org/?page=SampleForm&id=PaperArtifactDescriptionArticleEvaluationADAEAppendix&site=sc21 target="_top"><b> AD/AE</b></a> sample form is avaliable.</p>
 
 
 <h1>
@@ -240,7 +230,7 @@ Submissions shall be submitted through
 <li>Salvatore Filippone - University of Rome Tor Vergata</li>
 <li>Fernanda Foertter - The BioTeam, Inc.</li>
 <li>Max Grossman - Georgia Institute of Technology</li>
-<li>Hideto Iwashita - Fujitsu</li>
+<li>Hideto Iwashita - HPFPC</li>
 <li>Daniel S. Katz - University of Illinois, Urbana-Champaign</li>
 <li>Wonchan Lee - Stanford University</li>
 <li>Daniele Lezzi - Barcelona Supercomputing Center</li>
