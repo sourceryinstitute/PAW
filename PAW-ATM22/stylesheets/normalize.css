@@ -137,12 +137,10 @@ h1 {
   margin: 0.67em 0;
   /*Karla: Added color to Headers */
   /* color:  #3f2b96; */
-  /* color: #076585; */
-  /* color: #9bc5c3 */
-  /* color: #859398 */
-  /* color: #73c8a9 */
   color: #076585;
 
+  /* color: #4b1248; */
+  /* color: #ec6f66; */
 }
 
 /*Karla: Added color to Headers */
@@ -152,8 +150,7 @@ h2 {
   /* color: #4b1248; */
   /* color:  #3f2b96; */
   color: #076585;
-
-
+  /* color: #ec6f66; */
 }
 
 /**

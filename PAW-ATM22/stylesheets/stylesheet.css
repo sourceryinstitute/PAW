@@ -59,20 +59,27 @@ a {
 
 /* Karla add Color team form here https://uigradients.com/ */
 
-/* Titanium */
-background: #283048;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* Steel Gray */
+background: #1F1C2C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-/* Moor */
-background: #616161;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-/* Winter */
-background: #E6DADA;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* Dirty Fog */
+background: #B993D6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+/*  Azur Lane */
+background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* Sky */
+background: #076585;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 
   /*background-color: #159957;
@@ -132,9 +139,7 @@ background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Fir
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  /* color: #b20a2c;  */
-  color: #076585;
-}
+  color: #b20a2c; }
   /*color: #e0301e; }*/
   /*color: #159957; }*/
 .main-content p {
@@ -254,8 +259,7 @@ background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Fir
   font-weight: bold; }
 
 .site-footer-credits {
-  color: #819198; 
-}
+  color: #819198; }
 
 @media screen and (min-width: 64em) {
   .site-footer {
