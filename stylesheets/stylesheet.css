@@ -10,7 +10,8 @@ body {
   color: #606c71; }
 
 a {
-  color: #1e6bb8;
+  /* color: #1e6bb8; */
+  color: #6441A5;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -60,14 +61,16 @@ a {
 /* Karla add Color team form here https://uigradients.com/ */
 
 
-/* Kashmir */
-background: #614385;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
-  /*background-color: #159957;
-  /*background-image: linear-gradient(120deg, #155799, #159957); }*/
+/* Delicate */
+background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #B993D6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 @media screen and (min-width: 64em) {
   .page-header {
