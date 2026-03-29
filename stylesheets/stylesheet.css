@@ -11,7 +11,8 @@ body {
 
 a {
   /* color: #1e6bb8; */
-  color: #6441A5;
+  /* color: #6441A5; */
+  color: #2f80ed;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -60,11 +61,16 @@ a {
 
 /* Karla add Color team form here https://uigradients.com/ */
 
-/* Dirty Fog */
-background: #B993D6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+
+/* Harmonic Energy */
+background: #16A085;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
 @media screen and (min-width: 64em) {
   .page-header {
     padding: 5rem 6rem; } }
