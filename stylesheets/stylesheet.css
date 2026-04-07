@@ -12,7 +12,8 @@ body {
 a {
   /* color: #1e6bb8; */
   /* color: #6441A5; */
-  color: #2f80ed;
+  /* color: #2f80ed; */
+  color: #1212aa;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -59,16 +60,12 @@ a {
   color: #fff;
   text-align: center;
 
-/* Karla add Color team form here https://uigradients.com/ */
+/* Karla: add Color team form here https://uigradients.com/ */
 
-
-/* Harmonic Energy */
-background: #16A085;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
+/* Vision of Grandeur */
+background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 @media screen and (min-width: 64em) {
@@ -125,11 +122,10 @@ background: linear-gradient(to top, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Fir
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  /* color: #b20a2c;  */
-  color: #076585;
+  /* Karla: Color for links */
+  color: #1212aa;
 }
-  /*color: #e0301e; }*/
-  /*color: #159957; }*/
+
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {

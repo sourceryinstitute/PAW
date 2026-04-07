@@ -136,15 +136,7 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
   /*Karla: Added color to Headers */
-  /* color: #9bc5c3 */
-  /* color: #859398 */
-  /* color: #73c8a9 */
-  /* color: #076585; */
-  /* color: #00416a; */
-  /* color: #0a67a1; */
-  /* color: #512da8; */
-  /* color: #6441A5; */
-  color: #2f80ed
+  color: #1212aa
 
 }
 
@@ -152,12 +144,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   margin: 0.67em 0;  
-  /* color: #4b1248; */
-  /* color:  #3f2b96; */
-  /* color: #076585; */
-  /* color: #0a67a1; */
-  /* color: #6441A5; */
-  color: #2f80ed;
+  color: #1212aa
 
 }
 
